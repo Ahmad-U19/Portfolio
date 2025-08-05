@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.primary {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.text {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(29, 153, 241), rgb(49, 0, 139), rgb(234, 41, 195));
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.shape {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(132, 127, 127);
+}
+
+.shape h1 {
+  margin-top: 0px;
+  font-size: 4rem;
+  background: linear-gradient(to right, rgb(29, 153, 241), rgb(18, 2, 99), rgb(157, 12, 164), rgb(246, 51, 207));
+  background-clip: text;
+  color: transparent;
+}
+
+.button {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#bt1, #bt2 {
+  height: 60px;
+  width: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+#bt1 {
+  background: rgb(76, 76, 235);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#bt1:hover {
+  color: rgb(76, 76, 235);
+  background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#bt2 {
+  background: white;
+  color: black;
+}
+
+#bt2:hover {
+  background: black;
+  color: white;
+}
+
+#img {
+  margin: 60px auto 100px;
+  height: 400px;
+  padding: 30px;
+  width: 350px;
+  background: linear-gradient(to bottom right, rgb(29, 153, 241), rgb(18, 2, 99), rgb(157, 12, 164), rgb(246, 51, 207));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+#img img {
+  max-width: 100%;
+  border-radius: 20px;
+  height: auto;
+}
+
+#name {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(246, 245, 245, 0.89);
+  text-align: center;
+  border-radius: 5px;
+}
+
+#name h1 {
+  margin-top: 40px;
+  font-family: Raleway;
+  font-size: 2.5rem;
+  background: linear-gradient(to right, rgb(97, 189, 255), rgb(61, 64, 178), rgb(137, 52, 180), rgb(238, 69, 182));
+  background-clip: text;
+  color: transparent;
+}
+
+#name p {
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+#developer {
+  font-size: 1.2rem;
+}
+
+#footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#copy {
+  font-size: 0.9rem;
+}
+
+#privacy {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  #img {
+    height: 350px;
+    width: 300px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .shape h1 {
+    font-size: 3rem;
+  }
+
+  #name h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    margin: 20px auto;
+    font-size: 0.7rem;
+  }
+
+  .shape {
+    font-size: 1.2rem;
+  }
+
+  .shape h1 {
+    font-size: 2.2rem;
+  }
+
+  #img {
+    height: 280px;
+    width: 260px;
+  }
+
+  .button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #bt1, #bt2 {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  #name h1 {
+    font-size: 1.6rem;
+  }
+
+  #developer {
+    font-size: 1rem;
+  }
+
+  #copy {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  #privacy {
+    margin-left: 5px;
   }
 }
