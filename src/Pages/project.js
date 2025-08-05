@@ -2,6 +2,10 @@ import React, { useEffect } from 'react';
 import img from '../Components/calculator.png'
 import '../CSS/projects.css';
 import { useNavigate } from 'react-router-dom';
+import myImg from "../Components/qr_code.PNG"
+import text from "../Components/textutils.PNG"
+import login from "../Components/login.PNG"
+import land from "../Components/picture.PNG"
 
   function Project() {
     const navigate = useNavigate();
@@ -19,7 +23,7 @@ import { useNavigate } from 'react-router-dom';
           <h2>QR Code Generator</h2>
           <p>Built a responsive QR Code Generator that allows users to instantly create QR codes for any text or URL input. The application provides real-time code generation with a clean and minimal interface, making it easy to download or share the generated codes. This project highlights dynamic content rendering and user interaction in a modern web environment.</p>
         </div>
-        <img id='imgProjects-login' src="/qr_code.png" alt="Webpage Project" />
+        <img id='imgProjects-login' src={myImg} alt="Webpage Project" />
       </div>
 
       <div id="Name">
@@ -27,7 +31,7 @@ import { useNavigate } from 'react-router-dom';
           <h2>TextUtils</h2>
           <p>React application for editing and manipulating text with features like word count, character count, case conversion, and whitespace removal. The app offers a fast, interactive UI, showcasing React hooks and component-based design.</p>
         </div>
-        <img id='imgProjects' src="/textutils.png" alt="Webpage Project" />
+        <img id='imgProjects-login' src={text} alt="Webpage Project" />
       </div>
 
       <div id="Name">
@@ -44,7 +48,7 @@ import { useNavigate } from 'react-router-dom';
           <h2>Sign Up Page</h2>
           <p>Created a responsive and intuitive Sign Up page designed for seamless user authentication. The interface includes clearly labeled input fields, real-time validation feedback, and a prominent Sign Up button to enhance user experience. Special attention was given to accessibility and mobile responsiveness, ensuring the layout adapts well to all screen sizes. This project demonstrates a clean design approach suitable for modern web applications.</p>
         </div>
-        <img id='imgProjects-login' src="/login.png" alt="Webpage Project" />
+        <img id='imgProjects-login' src={login} alt="Webpage Project" />
       </div>
      
       <div id="Name">
@@ -52,7 +56,7 @@ import { useNavigate } from 'react-router-dom';
           <h2>Responsive Landing Page</h2>
           <p>Created a clean and responsive web page with a focus on user-friendly layout and accessibility. The design adjusts smoothly across different screen sizes, providing a consistent experience on both desktop and mobile devices.</p>
         </div>
-        <img id='imgProjects' src="/picture.png" alt="Webpage Project" />
+        <img id='imgProjects' src={land} alt="Webpage Project" />
       </div>
             
       <br /><br />

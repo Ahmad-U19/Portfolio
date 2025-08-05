@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../CSS/resume.css';
+import resume from "../Components/Ahmad_Hassaan_Resume.docx"
 
 function Resume() {
   useEffect(() => {
@@ -11,7 +12,7 @@ function Resume() {
       <h1 id='resume'>Resume</h1>
       <div id='resumePortion'>
         <h2>Experience</h2>
-        <a href="/Ahmad_Hassaan_Resume.docx" download>
+        <a href={resume} download>
         <button>Download Resume</button>
         </a>
       </div>
