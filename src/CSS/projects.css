@@ -1,0 +1,144 @@
+#page{
+    margin-top: 0px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+#project{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, skyblue, rgb(232, 102, 239) ,rgb(150, 24, 188), rgb(84, 1, 84), rgb(227, 39, 105));
+    background-clip: text;
+    color: transparent;
+}
+
+#Name{
+    margin: 50px 21vw;
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    justify-content: center;
+}
+
+
+#pname{
+    padding: 10px;
+}
+
+#imgProjects-login{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    padding: 10px;
+}
+h2{
+    color: black;
+}
+
+#call-to-action{
+    margin-top: 10px 0px;
+    border: 1px solid black;
+    text-align: center;
+    height: 250px;
+    background: linear-gradient(to right, rgb(54, 93, 193), rgb(84, 1, 84), rgb(84, 1, 84)); 
+}
+
+#mybtn{
+    height: 60px;
+    width: 150px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#mybtn {
+  background: rgb(76, 76, 235);
+  color: white;
+}
+
+#mybtn:hover {
+  color: rgb(76, 76, 235);
+  background: white;
+}
+
+#call-to-action p{
+    color: rgb(242, 242, 242);
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #Name {
+    margin: 50px 10vw;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  #pname {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #project {
+    font-size: 28px;
+  }
+
+  #Name {
+    flex-direction: column;
+    width: 95%;
+    margin: 30px auto;
+    padding: 10px;
+  }
+
+  #call-to-action p {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  #mybtn {
+    width: 80%;
+    max-width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #project {
+    font-size: 22px;
+  }
+
+  #Name {
+    margin: 20px 5vw;
+    border-radius: 10px;
+  }
+
+  #call-to-action {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  #call-to-action p {
+    font-size: 22px;
+  }
+
+  #mybtn {
+    height: 45px;
+    font-size: 0.9rem;
+  }
+}

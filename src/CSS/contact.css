@@ -1,0 +1,131 @@
+#contact-page{
+    margin-top: 0px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+#envelope{
+    border: 1px solid;
+    text-align: center;
+    margin: 20px 48%;
+    size: 40px;
+    font-size: larger;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(39, 89, 216), rgb(84, 1, 84)); 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+}
+
+#my-contact{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+}
+
+#my-contact h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#my-contact h4{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#name-contact{
+    margin-top: 10px;
+    height: 50px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btt{
+    margin-top: 10px;
+    height: 50px;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+    background: rgb(76, 76, 235);
+    color: white;
+}
+
+#btt:hover {
+  color: rgb(76, 76, 235);
+  background: white;
+}
+
+#message-box{
+    margin-top: 10px;
+    height: 150px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.my-form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin: 10px 0;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  #envelope {
+    margin: 20px auto;
+  }
+
+  #name-contact,
+  #message-box,
+  #btt {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  #my-contact h3 {
+    font-size: 32px;
+  }
+
+  #my-contact h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  #envelope {
+    width: 40px;
+    height: 30px;
+    font-size: medium;
+  }
+
+  #my-contact h3 {
+    font-size: 26px;
+  }
+
+  #my-contact h4 {
+    font-size: 16px;
+  }
+
+  #name-contact,
+  #message-box,
+  #btt {
+    width: 100%;
+  }
+}
