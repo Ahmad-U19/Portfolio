@@ -48,14 +48,14 @@ function Resume() {
                 <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Professional Skills</span></h3>
               </div>
               <div className="row row-cols-1 row-cols-md-3 mb-4">
-                <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO/SEM Marketing</div></div>
-                <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Statistical Analysis</div></div>
-                <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Version Control with Git & GitHub</div></div>
+                <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">UI/UX Basics</div></div>
              </div>
                 <div className="row row-cols-1 row-cols-md-3">
-                  <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                  <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                  <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                  <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Problem Solving</div></div>
+                  <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Time Management</div></div>
+                  <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Focused Design</div></div>
                 </div>
               </div>
                 <div className="mb-0">
