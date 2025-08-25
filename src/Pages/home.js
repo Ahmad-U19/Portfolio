@@ -35,7 +35,7 @@ function Home() {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta fuga consequuntur temporibus labore, Lorem ipsum dolor sit amet.quia Lorem ipsum dolor sit amet consectetur adipisicing </p>
         <div className="d-flex justify-content-center fs-2 gap-4">
           <a className="text-gradient" href="https://www.x.com/ahmadhassaan21"><i className="bi bi-twitter"></i></a>
-          <a className="text-gradient" href="#!"><i className="bi bi-linkedin"></i></a>
+          <a className="text-gradient" href="https://www.linkedin.com/in/ahmad-hassaan-737b55376/"><i className="bi bi-linkedin"></i></a>
           <a className="text-gradient" href="https://www.github.com/Ahmad-U19"><i className="bi bi-github"></i></a>
         </div>
       </div>
